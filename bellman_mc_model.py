@@ -2,7 +2,6 @@
 
 #necessary imports 
 import numpy as np
-import numba as nb
 from numpy import sinh,cosh,exp
 import matplotlib.pyplot as plt
 import time
@@ -92,3 +91,4 @@ plt.ylabel("Lateral Position")
 plt.grid(True, which='both', linestyle='--', linewidth=0.5)
 plt.tight_layout()
 plt.show()
+
